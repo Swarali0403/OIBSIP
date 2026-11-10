@@ -55,3 +55,34 @@ To develop a machine learning model that predicts house prices based on features
 
 ## Outcome
 Successfully developed a house price prediction system using Linear Regression and Ridge Regression. The models were evaluated and compared using regression performance metrics. The system also identifies influential features and predicts estimated house prices based on user-provided property details.
+
+
+# Wine Quality Prediction Using Machine Learning
+
+## Objective
+To develop and compare machine learning classification models that predict wine quality levels (Low, Medium, and High) based on their physicochemical properties using the Wine Quality dataset.
+
+## Steps Performed
+1. Loaded the Wine Quality dataset (`WineQT.csv`) using Pandas.
+2. Explored the dataset by checking its shape, missing values, and quality distribution.
+3. Cleaned the dataset by removing missing values, duplicate records, and unnecessary ID columns.
+4. Analyzed wine quality distribution and chemical feature distributions using visualizations.
+5. Performed correlation analysis using a heatmap to understand relationships between chemical properties.
+6. Grouped wine quality scores into three categories: Low, Medium, and High.
+7. Split the dataset into 80% training and 20% testing data.
+8. Applied StandardScaler to normalize features for SGD and SVC models.
+9. Trained three classification models: Random Forest, SGD Classifier, and Support Vector Classifier (SVC).
+10. Evaluated models using accuracy, precision, recall, F1-score, and confusion matrices.
+11. Analyzed feature importance using the Random Forest model.
+12. Compared all three models and identified the best-performing model based on test accuracy.
+
+## Tools & Technologies Used
+- **Programming Language:** Python
+- **Dataset:** Wine Quality Dataset (WineQT.csv)
+- **Libraries:** Pandas, Matplotlib, Seaborn, Scikit-learn
+- **Algorithms:** Random Forest, SGD Classifier, Support Vector Classifier (SVC)
+- **Techniques:** Data Cleaning, Exploratory Data Analysis (EDA), Feature Scaling, Classification, Correlation Analysis, Feature Importance
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+
+## Outcome
+Successfully developed and compared three machine learning classification models to categorize wine quality into Low, Medium, and High groups. Evaluated their performance using classification metrics and confusion matrices. Also identified important chemical features influencing wine quality and selected the best-performing model based on test accuracy.
